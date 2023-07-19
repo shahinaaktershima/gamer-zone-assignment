@@ -210,6 +210,40 @@ nav{
     position: relative;
     bottom: 160px;
     right: 130px;}
+    /* career section */
+    .career{
+        background-color: #FF42A5;
+    }
+    .career-content p,.career-list p,.career-list-country p{
+        color: white;
+    }
+    .career-box{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1140px;
+        height: 600px;
+        margin: 0 auto;
+       align-items: center;
+    }
+    .career-img{
+      height: 700px;
+      width: 100%;
+    }
+    .career-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .career-container{
+        display: flex;
+    }
+    .career-btn{
+        background-color: white;
+        color: #FF42A5;
+        padding: 10px;
+        border: none;
+        font-size: 1rem;
+        border-radius: 30px;
+    }
     /* text and image icon section */
     .icon{
         max-width: 1140px;
@@ -278,7 +312,7 @@ nav{
     header,main{
         padding: 20px 15px;
     }
-    nav,.menu,.gamer-box,.videos,.play-instantly{
+    nav,.menu,.gamer-box,.videos,.play-instantly,.career-box{
         flex-direction: column;
     }
     .menu{
@@ -391,7 +425,7 @@ nav{
         font-size: 1.5rem;
     }
     .box-hover{
-        margin-top:100px;
+        margin-top:5px;
     }
     .icon-box img{
         height: 30px;
@@ -418,6 +452,23 @@ nav{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .career-box{
+        width: 80%;
+        height: 900px;
+        gap: 15px;
+        margin:100px auto 0px;
+       align-items: center;
+       padding: 18px 0px;
+    }
+    .career-img{
+      height: 800px;
+      width: 100%;
+    }
+    .career-img img{
+        height: 100%;
+        width: 100%;
+    }
+    
     }
 
 
@@ -426,7 +477,7 @@ nav{
     header,main{
         padding: 20px 30px;
     }
-    nav,.menu,.gamer-box,.play-instantly{
+    nav,.menu,.gamer-box,.play-instantly,.career-box{
         flex-direction: column;
     }
     .menu{
@@ -522,7 +573,7 @@ nav{
     height: 200px;
   }
   .box-hover{
-    margin-top:250px;
+    margin-top:10px;
 }
 .icon-box{
     gap: 10px;
@@ -532,5 +583,22 @@ nav{
 .icon-box h4{
     font-size: 1rem;
 }
+.career-box{
+    width: 80%;
+    height: 900px;
+    gap: 50px;
+    margin:250px auto 0px;
+   align-items: center;
+   padding: 18px 0px;
+}
+.career-img{
+  height: 800px;
+  width: 100%;
+}
+.career-img img{
+    height: 100%;
+    width: 100%;
+}
+
 
 }
